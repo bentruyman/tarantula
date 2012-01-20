@@ -1,9 +1,32 @@
 {
   "name": "tarantula",
+  "description": "Simple & powerful website crawler",
   "version": "0.1.0",
+  "author" : "Ben Truyman <bentruyman@gmail.com>",
+  "bugs": {
+    "email": "bentruyman@gmail.com",
+    "url": "http://github.com/bentruyman/tarantula/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/bentruyman/tarantula/blob/master/LICENSE.txt"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/bentruyman/tarantula.git"
+    }
+  ],
   "dependencies": {
     "jsdom": "0.2.10",
     "q": "0.8.2",
     "request": "2.9.3"
-  }
+  },
+  "engines" : { "node" : ">=0.6.0" },
+  "directories": {
+    "lib": "./lib/tarantula"
+  },
+  "main": "./lib/tarantula"
 }
