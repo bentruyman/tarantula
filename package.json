@@ -1,0 +1,9 @@
+{
+  "name": "tarantula",
+  "version": "0.1.0",
+  "dependencies": {
+    "jsdom": "0.2.10",
+    "q": "0.8.2",
+    "request": "2.9.3"
+  }
+}
